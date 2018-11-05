@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Plus Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="assests/node_modules/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assests/node_modules/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="assests/node_modules/perfect-scrollbar/css/perfect-scrollbar.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <link rel="stylesheet" href="assests/node_modules/jvectormap/jquery-jvectormap.css"/>
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="assests/css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="assests/images/favicon.png"/>
+</head>
+<body style="background: #F6F8FA;">
+<div class="container">
+    <div class="card" style="margin: 16px 0;">
+        <div class="card-body">
+            <h3 class="card-title">Thêm quản trị viên mới</h3>
+            <p class="card-description">
+                Vui lòng nhập đầy đủ thông tin yêu cầu
+            </p>
+            <form class="forms-sample">
+                <div class="form-row">
+                    <div class="col-md-6 col-sm-12 form-group">
+                        <label for="ho-dem">Họ đệm (bắt buộc)</label>
+                        <input type="text" class="form-control" id="ho-dem" placeholder="Họ đệm">
+                    </div>
+                    <div class="col-md-6 col-sm-12 form-group">
+                        <label for="ten">Tên (bắt buộc)</label>
+                        <input type="text" class="form-control" id="ten" placeholder="Tên">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Địa chỉ email (bắt buộc)</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6 col-sm-12">
+                        <label for="mat-khau">Mật khẩu (bắt buộc)</label>
+                        <input type="password" class="form-control" id="mat-khau" placeholder="Mật khẩu">
+                    </div>
+                    <div class="form-group col-md-6 col-sm-12">
+                        <label for="xac-nhan-mat-khau">Xác nhận mật khẩu (bắt buộc)</label>
+                        <input type="password" class="form-control" id="xac-nhan-mat-khau"
+                                placeholder="Xác nhận mật khẩu">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-4 col-sm-6 col-12">
+                        <label>Giới tính</label>
+                        <div class="row" style="padding-left: 16px;">
+                            <div class="col form-radio">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios"
+                                            id="optionsRadios1">Nam
+                                    <i class="input-helper"></i>
+                                </label>
+                            </div>
+                            <div class="col form-radio">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios"
+                                            id="optionsRadios2">Nữ
+                                    <i class="input-helper"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-4 col-sm-6 col-12">
+                        <label for="ngay-sinh">Ngày sinh</label>
+                        <input type="password" class="form-control" id="ngay-sinh" placeholder="Ngày sinh: dd/MM/yyyy">
+                    </div>
+                    <div class="form-group col-md-4 col-sm-12">
+                        <label for="xac-nhan-mat-khau">Số điện thoại</label>
+                        <input type="password" class="form-control" id="dien-thoai"
+                                placeholder="Số điện thoại">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Ảnh đại diện</label>
+                    <input type="file" name="anhDaiDien" class="file-upload-default">
+                    <div class="input-group col-xs-12">
+                        <input type="text" class="form-control file-upload-info" readonly placeholder="Ảnh đại diện">
+                        <span class="input-group-append">
+                          <button class="btn btn-info" type="button">Chọn ảnh từ Server</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="dia-chi">Địa chỉ</label>
+                    <input type="text" class="form-control" id="dia-chi" placeholder="Địa chỉ">
+                </div>
+                <input type="submit" class="btn btn-primary btn-rounded mr-2" value="Thêm quản trị viên"/>
+                <a href="admin-quan-tri-vien.html">Về trang chủ</a>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- container-scroller -->
+
+<!-- plugins:js -->
+<script src="assests/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="assests/node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="assests/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="assests/node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+<!-- endinject -->
+<!-- Plugin js for this page-->
+<script src="assests/node_modules/jquery-sparkline/jquery.sparkline.min.js"></script>
+<!-- End plugin js for this page-->
+<!-- inject:js -->
+<script src="assests/js/off-canvas.js"></script>
+<script src="assests/js/hoverable-collapse.js"></script>
+<script src="assests/js/misc.js"></script>
+<script src="assests/js/settings.js"></script>
+<script src="assests/js/todolist.js"></script>
+<!-- endinject -->
+<!-- Custom js for this page-->
+<script src="assests/js/todolist.js"></script>
+<script src="assests/js/dashboard.js"></script>
+<!-- End custom js for this page-->
+
+<script type="text/javascript">
+
+</script>
+</body>
+
+</html>
