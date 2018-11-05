@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Thêm quản trị viên mới</title>
+    <title>Sửa quản trị viên</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="assests/node_modules/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assests/node_modules/flag-icon-css/css/flag-icon.min.css">
@@ -31,30 +31,32 @@
                 <div class="form-row">
                     <div class="col-md-6 col-sm-12 form-group">
                         <label for="ho-dem">Họ đệm (bắt buộc)</label>
-                        <input type="text" class="form-control" id="ho-dem" placeholder="Họ đệm">
+                        <input type="text" class="form-control" id="ho-dem" placeholder="Họ đệm" value="Nguyễn Lê">
                         <small class="text-danger" id="validate-ho-dem"></small>
                     </div>
                     <div class="col-md-6 col-sm-12 form-group">
                         <label for="ten">Tên (bắt buộc)</label>
-                        <input type="text" class="form-control" id="ten" placeholder="Tên">
+                        <input type="text" class="form-control" id="ten" placeholder="Tên" value="Điền">
                         <small class="text-danger" id="validate-ten"></small>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="email">Địa chỉ email (bắt buộc)</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email">
+                    <input type="email" class="form-control" id="email" placeholder="Email"
+                            value="ngdien1998@gmail.com">
                     <small class="text-danger" id="validate-email"></small>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6 col-sm-12">
                         <label for="mat-khau">Mật khẩu (bắt buộc)</label>
-                        <input type="password" class="form-control" id="mat-khau" placeholder="Mật khẩu">
+                        <input type="password" class="form-control" id="mat-khau" placeholder="Mật khẩu"
+                                value="1234567890">
                         <small class="text-danger" id="validate-mat-khau"></small>
                     </div>
                     <div class="form-group col-md-6 col-sm-12">
                         <label for="xac-nhan-mat-khau">Xác nhận mật khẩu (bắt buộc)</label>
                         <input type="password" class="form-control" id="xac-nhan-mat-khau"
-                                placeholder="Xác nhận mật khẩu">
+                                placeholder="Xác nhận mật khẩu" value="1234567890">
                         <small class="text-danger" id="validate-xac-nhan-mat-khau"></small>
                     </div>
                 </div>
@@ -65,7 +67,7 @@
                             <div class="col form-radio">
                                 <label class="form-check-label">
                                     <input type="radio" class="form-check-input" name="radNam"
-                                            id="nam">Nam
+                                            id="nam" checked>Nam
                                     <i class="input-helper"></i>
                                 </label>
                             </div>
@@ -80,13 +82,14 @@
                     </div>
                     <div class="form-group col-md-4 col-sm-6 col-12">
                         <label for="ngay-sinh">Ngày sinh</label>
-                        <input type="text" class="form-control" id="ngay-sinh" placeholder="Ngày sinh: dd/MM/yyyy">
+                        <input type="text" class="form-control" id="ngay-sinh" placeholder="Ngày sinh: dd/MM/yyyy"
+                                value="22/11/1998">
                         <small class="text-danger" id="validate-ngay-sinh"></small>
                     </div>
                     <div class="form-group col-md-4 col-sm-12">
                         <label for="xac-nhan-mat-khau">Số điện thoại</label>
                         <input type="text" class="form-control" id="dien-thoai"
-                                placeholder="Số điện thoại">
+                                placeholder="Số điện thoại" value="0967397916">
                         <small class="text-danger" id="validate-dien-thoai"></small>
                     </div>
                 </div>
@@ -94,7 +97,8 @@
                     <label>Ảnh đại diện</label>
                     <input type="file" name="anhDaiDien" class="file-upload-default">
                     <div class="input-group col-xs-12">
-                        <input type="text" class="form-control file-upload-info" readonly placeholder="Ảnh đại diện">
+                        <input type="text" class="form-control file-upload-info" readonly placeholder="Ảnh đại diện"
+                                value="images/profile1.pg">
                         <span class="input-group-append">
                           <button class="btn btn-primary" type="button">Chọn ảnh từ Server</button>
                         </span>
@@ -102,10 +106,11 @@
                 </div>
                 <div class="form-group">
                     <label for="dia-chi">Địa chỉ</label>
-                    <input type="text" class="form-control" id="dia-chi" placeholder="Địa chỉ">
+                    <input type="text" class="form-control" id="dia-chi" placeholder="Địa chỉ"
+                            value="75/6, Trương Văn Hải, phường Tăng Nhơn Phú B, Quận 9">
                 </div>
                 <div class="form-row justify-content-center">
-                    <input type="submit" class="btn btn-primary btn-rounded" value="Thêm quản trị viên"/>
+                    <input type="submit" class="btn btn-primary btn-rounded mr-2" value="Thêm quản trị viên"/>
                     <a href="admin-quan-tri-vien.html">Về trang chủ</a>
                 </div>
             </form>
