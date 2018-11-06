@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Xem loại món</title>
+    <title>Xóa thực đơn</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="assests/node_modules/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assests/node_modules/flag-icon-css/css/flag-icon.min.css">
@@ -23,31 +23,43 @@
 <div class="container">
     <div class="card" style="margin: 16px 0;">
         <div class="card-body">
-            <h3 class="card-title">Thông tin loại món: Món nướng</h3>
+            <h3 class="card-title">Thông tin thực đơn: Thực đơn nướng</h3>
             <p class="card-description">
                 Thông tin chi tiết
             </p>
             <div class="row" style="margin-bottom: 16px;">
                 <table class="table">
                     <tr>
-                        <td>ID loại món:</td>
+                        <td>ID thực đơn:</td>
                         <td>1</td>
                     </tr>
                     <tr>
-                        <td>Tên loại món:</td>
-                        <td>Món nướng</td>
+                        <td>Tên thực đơn:</td>
+                        <td>Thực đơn nướng</td>
                     </tr>
                     <tr>
                         <td>Mô tả:</td>
                         <td>Chưa mô tả</td>
                     </tr>
+                    <tr>
+                        <td>Giá:</td>
+                        <td>599000</td>
+                    </tr>
+                    <tr>
+                        <td>Phần trăm khuyến mãi:</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Thứ:</td>
+                        <td>NULL</td>
+                    </tr>
                 </table>
             </div>
             <div class="form-row justify-content-center">
-                <form method="post" action="XacNhanXemLoaiMon">
-                    <input type="hidden" value="1" name="idloaimon"/>
-                    <a class="btn btn-primary btn-rounded" href="admin-sua-loai-mon.html">Sửa</a>
-                    <a href="admin-loai-mon.html">Về trang chủ</a>
+                <form method="post" action="XacNhanXoaThucDon">
+                    <input type="hidden" value="1" name="idthucdon"/>
+                    <input type="submit" class="btn btn-primary btn-rounded" value="Xóa thực đơn này"/>
+                    <a href="admin-thuc-don.html">Về trang chủ</a>
                 </form>
             </div>
         </div>
