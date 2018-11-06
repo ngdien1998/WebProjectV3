@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Plus Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="assests/node_modules/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assests/node_modules/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="assests/node_modules/perfect-scrollbar/css/perfect-scrollbar.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="assests/css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="assests/images/favicon.png"/>
+    <script src="assests/js/ckeditor/ckeditor.js" type="text/javascript"></script>
+    <script src="assests/js/ckfinder/ckfinder.js" type="text/javascript"></script>
+</head>
+
+<body style="background: #F6F8FA;">
+<div class="container">
+    <div class="content-wrapper">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Thêm bài viết mới</h3>
+                <p class="card-description">Vui lòng nhập đầy đủ thông tin yêu cầu</p>
+                <form>
+                    <div class="form-group">
+                        <label for="ten-bai-viet">Tên bài viết</label>
+                        <input type="text" placeholder="Tên bài viết" name="txtTenBaiViet" class="form-control"
+                                id="ten-bai-viet"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="mo-ta">Mô tả bài viết</label>
+                        <input type="text" placeholder="Mô tả bài viết" name="txtMoTa" class="form-control" id="mo-ta"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="editorPost">Nội dung bài viết</label>
+                        <textarea class="editorPost" id="editorPost" name="txtNoiDung"></textarea>
+                        <script type="text/javascript">
+                            let editor = CKEDITOR.replace("editorPost");
+                            CKFinder.setupCKEditor(editor, "assests/js/ckfinder/");
+                        </script>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-2">
+                            <label for="nguoi-hien-tai">Chọn người dùng hiện tại</label>
+                            <div class="form-check form-check-flat">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="nguoi-hien-tai">
+                                    Người dùng hiện tại
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group col-10">
+                            <label for="nguoi-dung">Chọn người viết bài</label>
+                            <select class="form-control border-primary" id="nguoi-dung">
+                                <option value="ngdien1888@gmail.com">Nguyễn Lê Điền</option>
+                                <option value="">Nguyễn Trường Tráng</option>
+                                <option value="">Phạm Gia Thịnh</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-2">
+                            <label for="thoi-gian-hien-tai">Thời gian viết bài</label>
+                            <div class="form-check form-check-flat">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="thoi-gian-hien-tai">
+                                    Thời gian hiện tại
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group col-10">
+                            <label for="thoi-gian">Chọn thời gian viết bài</label>
+                            <input type="date" name="txtThoiGian" id="thoi-gian" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="loai-bai-viet">Chọn người viết bài</label>
+                        <select class="form-control border-primary" id="loai-bai-viet">
+                            <option value="1">Tin tức thị trường</option>
+                            <option value="2">Ẩm thực</option>
+                            <option value="3">Nhà hàng</option>
+                        </select>
+                    </div>
+                    <div class="form-row justify-content-center">
+                        <input type="submit" value="Thêm bài viết" class="btn btn-primary btn-rounded" />
+                        <a href="admin-bai-viet.html">Về trang chủ</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- container-scroller -->
+<!-- plugins:js -->
+<script src="assests/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="assests/node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="assests/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="assests/node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+<script src="assests/js/off-canvas.js"></script>
+<script src="assests/js/hoverable-collapse.js"></script>
+<script src="assests/js/misc.js"></script>
+<script src="assests/js/settings.js"></script>
+<script src="assests/js/todolist.js"></script>
+<!-- endinject -->
+<!-- Custom js for this page-->
+<script src="assests/js/editorDemo.js"></script>
+<!-- End custom js for this page-->
+
+</body>
+
+</html>
