@@ -7,12 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="947059ef-b44e-4e5d-b2a4-ccb9c06ab7b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/xac-nhan-dang-ky.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/chi-tiet-thuc-don.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/chi-tiet-thuc-don.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/dang-ky.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/dang-ky.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/dang-nhap.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/dang-nhap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/thuc-don.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/thuc-don.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assests/images/introduction_food.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assests/images/nhahang-gioithieu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assests/images/pexels-photo-1268551.jpeg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -243,11 +240,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/thuc-don.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-502">
-              <caret line="298" column="67" selection-start-line="298" selection-start-column="67" selection-end-line="298" selection-end-column="67" />
+            <state relative-caret-position="-2527">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/dang-ky.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="890">
+              <caret line="85" column="48" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -256,7 +262,7 @@
         <entry file="file://$PROJECT_DIR$/web/chi-tiet-thuc-don.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -484,19 +490,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\JSP Servlet\WebProjectV3\web\assests\images" />
-      <recent name="E:\JSP Servlet\WebProjectV3\web" />
-      <recent name="E:\JSP Servlet\WebProjectV3\web\Content\Upload\TinTuc" />
-      <recent name="E:\JSP Servlet\WebProjectV3\web\WEB-INF\lib" />
-      <recent name="E:\JSP Servlet\WebProjectV3\web\WEB-INF" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\JSP Servlet\WebProjectV3\web" />
       <recent name="E:\JSP Servlet\WebProjectV3\web\WEB-INF" />
       <recent name="E:\JSP Servlet\WebProjectV1\web" />
       <recent name="E:\JSP Servlet\WebProjectV1\web\layout\assests\images" />
       <recent name="E:\JSP Servlet\WebProjectV1\web\layout" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JSP Servlet\WebProjectV3\web\assests\images" />
+      <recent name="E:\JSP Servlet\WebProjectV3\web" />
+      <recent name="E:\JSP Servlet\WebProjectV3\web\Content\Upload\TinTuc" />
+      <recent name="E:\JSP Servlet\WebProjectV3\web\WEB-INF\lib" />
+      <recent name="E:\JSP Servlet\WebProjectV3\web\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -955,12 +961,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161308000" />
+    <option name="totallyTimeSpent" value="161418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.22012103" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.22012103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -977,7 +983,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32786885" />
@@ -1334,8 +1340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/dang-ky.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="56" column="81" selection-start-line="56" selection-start-column="81" selection-end-line="56" selection-end-column="81" />
+        <state relative-caret-position="890">
+          <caret line="85" column="48" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1356,7 +1362,7 @@
     <entry file="file://$PROJECT_DIR$/web/chi-tiet-thuc-don.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1367,8 +1373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/thuc-don.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-502">
-          <caret line="298" column="67" selection-start-line="298" selection-start-column="67" selection-end-line="298" selection-end-column="67" />
+        <state relative-caret-position="-2527">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
