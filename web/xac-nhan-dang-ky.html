@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Đăng ký tài khoản</title>
+    <title>Xác nhận đăng ký</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="assests/node_modules/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assests/node_modules/flag-icon-css/css/flag-icon.min.css">
@@ -29,37 +29,16 @@
                         <div class="col-lg-6 bg-white">
                             <div class="auth-form-light text-left p-5">
                                 <h2>Đăng ký tài khoản</h2>
-                                <h4 class="font-weight-light">Chào mừng bạn đến với website nhà hàng</h4>
+                                <h4 class="font-weight-light">Xác nhận đăng ký</h4>
                                 <form class="pt-4">
-                                    <form>
+                                    <form method="post">
                                         <div class="form-group">
-                                            <label for="txt-email">Email</label>
-                                            <input type="email" class="form-control" id="txt-email" aria-describedby="emailHelp" placeholder="Nhập email">
-                                            <i class="mdi mdi-account"></i>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="txt-mat-khau">Mật khẩu</label>
-                                            <input type="password" class="form-control" id="txt-mat-khau" placeholder="Nhập mật khẩu">
-                                            <i class="mdi mdi-eye"></i>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="txt-re-pass">Password</label>
-                                            <input type="password" class="form-control" id="txt-re-pass" placeholder="Xác nhận mật khẩu">
-                                            <i class="mdi mdi-eye"></i>
+                                            <label for="txt-code">Nhập mã xác nhận đã được gửi đến email của bản</label>
+                                            <input type="email" class="form-control" id="txt-code" placeholder="Mã xác nhận">
                                         </div>
                                         <div class="mt-5">
-                                            <input type="submit" class="btn btn-block btn-primary btn-rounded" value="Đăng ký" />
-                                        </div>
-                                        <div class="mt-2 w-75 mx-auto">
-                                            <div class="form-check form-check-flat">
-                                                <label class="form-check-label">
-                                                    <input type="checkbox" class="form-check-input" checked>
-                                                    Đồng ý điều khoản của website
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="mt-2 text-center">
-                                            <a href="dang-nhap.html" class="auth-link text-black">Đã có tài khoản? <span class="font-weight-medium">Đăng nhập</span></a>
+                                            <input type="submit" class="btn btn-primary btn-rounded" value="Đăng ký" />
+                                            <input type="button" class="btn btn-warning btn-rounded" value="Gửi lại mã" />
                                         </div>
                                     </form>
                                 </form>
