@@ -18,6 +18,11 @@
     <link rel="stylesheet" href="assests/css/style.css">
     <!-- endinject -->
     <link rel="shortcut icon" href="assests/images/favicon.png"/>
+    <style>
+        li {
+            list-style-type: none;
+        }
+    </style>
 </head>
 <body>
 <div class="container-scroller">
@@ -83,9 +88,9 @@
                     <form class="nav-link form-inline mt-2 mt-md-0 d-none d-lg-flex">
                         <div class="input-group">
                             <div class="input-group-prepend">
-                  <span class="input-group-text">
-                    <i class="mdi mdi-magnify"></i>
-                  </span>
+                                <span class="input-group-text">
+                                    <i class="mdi mdi-magnify"></i>
+                                </span>
                             </div>
                             <input type="text" class="form-control" placeholder="Search">
                         </div>
@@ -159,10 +164,10 @@
             <ul class="nav">
                 <li class="nav-item nav-profile">
                     <a href="#" class="nav-link">
-              <span class="nav-profile-image">
-                <img src="assests/images/faces/face1.jpg" alt="profile">
-                <span class="login-status online"></span> <!--change to offline or busy as needed-->
-              </span>
+                        <span class="nav-profile-image">
+                            <img src="assests/images/faces/face1.jpg" alt="profile">
+                            <span class="login-status online"></span> <!--change to offline or busy as needed-->
+                        </span>
                     </a>
                 </li>
                 <li class="nav-item nav-category">
@@ -574,135 +579,83 @@
             <div class="content-wrapper">
                 <div class="card">
                     <div class="card-body">
-                        <h2 class="card-title">Quản lý quản trị viên</h2>
+                        <h2 class="card-title">Phân quyền cho quản trị viên: Nguyễn Lê Điền</h2>
+                        <p class="card-description">Chọn các quyền cần gán theo danh sách dưới đây</p>
                         <div class="row">
-                            <div class="col-sm-12 col-md-6">
-                                <a href="admin-them-quan-tri-vien.html" class="btn btn-primary btn-rounded">Thêm mới</a>
+                            <div class="col-12 col-md-5">
+                                <h3>Nghiệp vụ phân quyền</h3>
+                                <label for="txt-nghiep-vu">Chọn nghiệp vụ</label>
+                                <select name="cmbNghiepVu" id="txt-nghiep-vu" class="form-control">
+                                    <option value="-1">Chọn nghiệp vụ</option>
+                                    <option value="1">Quản lý người dùng</option>
+                                    <option value="2" selected>Quản lý quản trị viên</option>
+                                    <option value="3">Quản lý món ăn</option>
+                                    <option value="4">Quản lý thực đơn</option>
+                                    <option value="5">Quản lý hóa đơn đơn</option>
+                                    <option value="6">Quản lý đặt bàn</option>
+                                    <option value="7">Quản lý nghiệp vụ</option>
+                                    <option value="8">Quản lý quyền hạn</option>
+                                    <option value="9">Quản lý loại món ăn</option>
+                                </select>
                             </div>
-                            <div class="col-sm-12 col-md-6">
-                                <input type="search" class="form-control" placeholder="Tìm kiếm quản trị viên"
-                                        aria-controls="order-listing">
+                            <div class="col-12 col-md-6 offset-1">
+                                <h3>Danh sách quyền hạn</h3>
+                                <ul>
+                                    <li>
+                                        <div class="form-group">
+                                            <div class="form-check form-check-flat">
+                                                <label class="form-check-label">
+                                                    <input type="checkbox" class="form-check-input" checked>
+                                                    Xem thông tin
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <div class="form-check form-check-flat">
+                                                <label class="form-check-label">
+                                                    <input type="checkbox" class="form-check-input" checked>
+                                                    Thêm mới
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <div class="form-check form-check-flat">
+                                                <label class="form-check-label">
+                                                    <input type="checkbox" class="form-check-input">
+                                                    Xóa
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <div class="form-check form-check-flat">
+                                                <label class="form-check-label">
+                                                    <input type="checkbox" class="form-check-input">
+                                                    Sửa hoặc cập nhật
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <div class="form-check form-check-flat">
+                                                <label class="form-check-label">
+                                                    <input type="checkbox" class="form-check-input">
+                                                    Phân quyền
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <table class="table table-hover" style="margin: 16px 0;">
-                            <thead>
-                            <tr>
-                                <th>Ảnh</th>
-                                <th>Tên</th>
-                                <th>Email</th>
-                                <th>Ngày sinh</th>
-                                <th>Nữ</th>
-                                <th>Điện thoại</th>
-                                <th>Trạng thái</th>
-                                <th></th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td><img src="assests/images/faces/face1.jpg"/></td>
-                                <td>Nguyễn Lê Điền</td>
-                                <td>ngdien1998@gmail.com</td>
-                                <td>22/11/1998</td>
-                                <td>No</td>
-                                <td>0967397916</td>
-                                <td>Kích hoạt</td>
-                                <td>
-                                    <a href="admin-xem-quan-tri-vien.html?email=ngdien1998@gmail.com">Xem</a> |
-                                    <a href="admin-sua-quan-tri-vien.html?email=ngdien1998@gmail.com">Sửa</a> |
-                                    <a href="admin-xoa-quan-tri-vien.html?email=ngdien1998@gmail.com">Xóa</a> |
-                                    <a href="admin-phan-quyen.html?email=ngdien1998@gmail.com">Phân quyền</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><img src="assests/images/faces/face1.jpg"/></td>
-                                <td>Nguyễn Lê Điền</td>
-                                <td>ngdien1998@gmail.com</td>
-                                <td>22/11/1998</td>
-                                <td>No</td>
-                                <td>0967397916</td>
-                                <td>Kích hoạt</td>
-                                <td>
-                                    <a href="admin-xem-quan-tri-vien.html?email=ngdien1998@gmail.com">Xem</a> |
-                                    <a href="admin-sua-quan-tri-vien.html?email=ngdien1998@gmail.com">Sửa</a> |
-                                    <a href="admin-xoa-quan-tri-vien.html?email=ngdien1998@gmail.com">Xóa</a> |
-                                    <a href="admin-phan-quyen.html?email=ngdien1998@gmail.com">Phân quyền</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><img src="assests/images/faces/face1.jpg"/></td>
-                                <td>Nguyễn Lê Điền</td>
-                                <td>ngdien1998@gmail.com</td>
-                                <td>22/11/1998</td>
-                                <td>No</td>
-                                <td>0967397916</td>
-                                <td>Kích hoạt</td>
-                                <td>
-                                    <a href="admin-xem-quan-tri-vien.html?email=ngdien1998@gmail.com">Xem</a> |
-                                    <a href="admin-sua-quan-tri-vien.html?email=ngdien1998@gmail.com">Sửa</a> |
-                                    <a href="admin-xoa-quan-tri-vien.html?email=ngdien1998@gmail.com">Xóa</a> |
-                                    <a href="admin-phan-quyen.html?email=ngdien1998@gmail.com">Phân quyền</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><img src="assests/images/faces/face1.jpg"/></td>
-                                <td>Nguyễn Lê Điền</td>
-                                <td>ngdien1998@gmail.com</td>
-                                <td>22/11/1998</td>
-                                <td>No</td>
-                                <td>0967397916</td>
-                                <td>Kích hoạt</td>
-                                <td>
-                                    <a href="admin-xem-quan-tri-vien.html?email=ngdien1998@gmail.com">Xem</a> |
-                                    <a href="admin-sua-quan-tri-vien.html?email=ngdien1998@gmail.com">Sửa</a> |
-                                    <a href="admin-xoa-quan-tri-vien.html?email=ngdien1998@gmail.com">Xóa</a> |
-                                    <a href="admin-phan-quyen.html?email=ngdien1998@gmail.com">Phân quyền</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><img src="assests/images/faces/face1.jpg"/></td>
-                                <td>Nguyễn Lê Điền</td>
-                                <td>ngdien1998@gmail.com</td>
-                                <td>22/11/1998</td>
-                                <td>No</td>
-                                <td>0967397916</td>
-                                <td>Kích hoạt</td>
-                                <td>
-                                    <a href="admin-xem-quan-tri-vien.html?email=ngdien1998@gmail.com">Xem</a> |
-                                    <a href="admin-sua-quan-tri-vien.html?email=ngdien1998@gmail.com">Sửa</a> |
-                                    <a href="admin-xoa-quan-tri-vien.html?email=ngdien1998@gmail.com">Xóa</a> |
-                                    <a href="admin-phan-quyen.html?email=ngdien1998@gmail.com">Phân quyền</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><img src="assests/images/faces/face1.jpg"/></td>
-                                <td>Nguyễn Lê Điền</td>
-                                <td>ngdien1998@gmail.com</td>
-                                <td>22/11/1998</td>
-                                <td>No</td>
-                                <td>0967397916</td>
-                                <td>Kích hoạt</td>
-                                <td>
-                                    <a href="admin-xem-quan-tri-vien.html?email=ngdien1998@gmail.com">Xem</a> |
-                                    <a href="admin-sua-quan-tri-vien.html?email=ngdien1998@gmail.com">Sửa</a> |
-                                    <a href="admin-xoa-quan-tri-vien.html?email=ngdien1998@gmail.com">Xóa</a> |
-                                    <a href="admin-phan-quyen.html?email=ngdien1998@gmail.com">Phân quyền</a>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                        <div class="row">
-                            <nav>
-                                <ul class="pagination flat pagination-primary">
-                                    <li class="page-item"><a class="page-link" href="#"><i
-                                            class="mdi mdi-chevron-left"></i></a></li>
-                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                    <li class="page-item"><a class="page-link" href="#"><i
-                                            class="mdi mdi-chevron-right"></i></a></li>
-                                </ul>
-                            </nav>
+                        <div class="row justify-content-center">
+                            <a href="admin-quan-tri-vien.html" class="btn btn-success btn-rounded">Quay về trang chủ</a>
                         </div>
                     </div>
                 </div>
