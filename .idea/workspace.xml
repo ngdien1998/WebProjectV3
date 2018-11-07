@@ -6,44 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b2c6b2c-a054-484f-8950-5895ce8ad186" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/assests/css/style.chi-tiet-thuc-don.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assests/js/script.chi-tiet-thuc-don.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-bai-viet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-binh-luan-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-binh-luan-mon-an.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-quan-ly-dat-ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-quan-ly-dat-ban.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-quan-ly-hoa-don.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-quan-ly-hoa-don.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-quan-ly-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-quan-ly-mon-an.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-sua-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-sua-mon-an.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-them-hoa-don.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-them-hoa-don.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-them-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-them-mon-an.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-xem-hoa-don.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-xem-hoa-don.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-xem-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-xem-mon-an.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-xoa-bai-viet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-xoa-dat-ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-xoa-dat-ban.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-xoa-loai-mon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-xoa-mon-an.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-xoa-quan-tri-vien.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-xoa-quyen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-xoa-thuc-don.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/css/style.thuc-don.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assests/css/style.thuc-don.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/js/script.thuc-don.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assests/js/script.thuc-don.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/chi-tiet-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/chi-tiet-mon-an.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/chi-tiet-thuc-don.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/dang-ky.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/dang-ky.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/dang-nhap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/dat-ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/dat-ban.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/error-404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/error-500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/gio-hang.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/gio-hang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/gioi-thieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/gioi-thieu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lien-he.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/lien-he.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/tat-ca-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/tat-ca-mon-an.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/thuc-don.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/thuc-don.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/trang-chu.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/trang-chu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/xac-nhan-dang-ky.html" beforeDir="false" />
-    </list>
+    <list default="true" id="1b2c6b2c-a054-484f-8950-5895ce8ad186" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -201,10 +164,10 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="8" />
+          <entry key="git.branch.checkout.local" value="9" />
           <entry key="git.branch.compare" value="1" />
           <entry key="git.branch.create.new" value="1" />
-          <entry key="git.branch.merge" value="4" />
+          <entry key="git.branch.merge" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -300,31 +263,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/thuc-don.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-608">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/assests/js/script.chi-tiet-thuc-don.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/assests/css/style.chi-tiet-thuc-don.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -391,7 +330,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="NLDien" />
       </map>
     </option>
   </component>
@@ -517,12 +456,6 @@
               <item name="WebProjectV3" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebProjectV3" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebProjectV3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebProjectV3" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="assests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1025,7 +958,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163278000" />
+    <option name="totallyTimeSpent" value="163470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1455,11 +1388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="75" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="75" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
