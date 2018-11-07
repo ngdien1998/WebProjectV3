@@ -2,12 +2,7 @@
     width: 350px;
     color: black;
 }
-.menuu{
-    padding-left: 5%;
-}
-.text-colorr{
-    color: black;
-}
+
 #RightHeader1 {
     color: black;
     padding: 1px;
@@ -23,63 +18,51 @@
     width: 350px;
     padding-left: 80px;
 }
-.linee{
-    border-bottom: 1px solid gray;
-    margin-bottom: 5%;
-}
+
 #TrangChu {
     padding: 0px 0px 10px 0px;
     border-bottom: 1px solid gray;
     height: 25px;
-    margin: 10px 10% 0px 0px;
+    margin: 10px 0px 0px 0px;
 }
 
 #ThucDon {
     padding: 0;
     border-bottom: 1px solid gray;
     height: 25px;
-    margin: 10px 10% 0px 0px;
+    margin: 10px 0px 0px 0px;
 }
 
 #Tintuc-sukien {
     padding: 0px 0px 10px 0px;
     border-bottom: 1px solid gray;
     height: 25px;
-    margin: 10px 10% 0px 0px;
+    margin: 10px 0px 0px 0px;
 }
 
 #GioiThieu {
     padding: 0px 0px 10px 0px;
     border-bottom: 1px solid gray;
     height: 25px;
-    margin: 10px 10% 0px 0px;
+    margin: 10px 0px 0px 0px;
 }
 
 #Lienhe {
     padding: 0px 0px 10px 0px;
     border-bottom: 1px solid gray;
     height: 25px;
-    margin: 10px 10% 0px 0px;
+    margin: 10px 0px 0px 0px;
 }
-.container{
-    margin: 5% 5% 5% 10%;
-}
+
 #News {
-    margin: 0 5% 5% 5%;
+    margin: 20px 20px 20px 0px;
 }
-.set-line{
-    border-bottom: 1px solid gray;
-}
+
 .NewsImg {
     width: 100%;
     /* margin: 10px; */
 }
-.bot-mar{
-    margin-bottom: 5px;
-}
-.bot-mar2{
-    margin-bottom: 5%;
-}
+
 /*.NewsStr{
     width: calc(100% - 100px - 20px) ;
 }
@@ -90,7 +73,8 @@
 
 .NewsImagine {
     float: left;
-    margin: 0 5% 5% 5%;
+    width: 250px;
+    margin: 20px;
 }
 
 .NewsInfor {

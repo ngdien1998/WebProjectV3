@@ -7,149 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="947059ef-b44e-4e5d-b2a4-ccb9c06ab7b7" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/web/admin-quan-ly-hoa-don.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-quan-ly-hoa-don.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin-them-hoa-don.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-them-hoa-don.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assests/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/css/style.lien-he.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assests/css/style.lien-he.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/apps/calendar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/apps/email.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/apps/gallery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/apps/todo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/charts/c3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/charts/chartist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/charts/chartjs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/charts/flot-chart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/charts/google-charts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/charts/justGage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/charts/morris.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/charts/sparkline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/charts/widgets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/documentation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/ace_editor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/advanced_elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/basic_elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/bt-maxlength.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/bt-select-splitter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/code-mirror.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/code_editor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/dropify.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/dropzone.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/form-addons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/form-mask.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/form-picker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/form-repeater.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/form-validation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/form-wizard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/icheck.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/image-cropper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/jquery-file-upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/quill-editor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/simplemde-editor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/summernote.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/text_editor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/tinymce.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/typeahead.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/validation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/wizard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/wysihtml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/forms/x-editable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/icons/flag-icons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/icons/font-awesome.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/icons/simple-line-icon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/icons/themify.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/layout/boxed-layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/layout/compact-menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/layout/horizontal-menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/layout/rtl-layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/layout/sidebar-collapsed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/layout/sidebar-fixed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/layout/sidebar-hidden-overlay.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/layout/sidebar-hidden.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/maps/google-maps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/maps/mapeal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/maps/vector-map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/blank-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/error-404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/error-500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/faq-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/faq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/invoice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/landing-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/lock-screen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/login-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/news-grid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/orders.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/portfolio-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/portfolio-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/portfolio-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/portfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/pricing-table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/pricing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/register-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/search-results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/samples/timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/tables/basic-table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/tables/bootstrap-table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/tables/data-table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/tables/js-grid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/tables/sortable-table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/accordions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/alerts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/avgrund.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/badges.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/breadcrumbs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/buttons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/carousel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/clipboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/colcade.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/context-menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/desktop-notifications.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/dragula.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/dropdowns.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/image-cropper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/ion-range-slider.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/listify.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/loaders.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/modals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/no-ui-slider.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/notifications.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/pagination.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/popups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/progress.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/slider.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/tabs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/tooltips.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/tour.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/ui-features/typography.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/pages/widgets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/partials/_footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/partials/_mega-menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/partials/_navbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/partials/_settings-panel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/partials/_sidebar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/chi-tiet-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/chi-tiet-mon-an.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/dat-ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/dat-ban.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lien-he.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/lien-he.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/tat-ca-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/tat-ca-mon-an.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/thuc-don.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/thuc-don.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/trang-chu.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/trang-chu.html" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/web/assests/images/agriculture-color-cooking-255501.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assests/images/appetizers-chef-cooking-1267320.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assests/images/asian-food-bowl-cuisine-699953.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assests/images/banana-berries-berry-775031.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assests/images/chair-cutlery-diner-941861.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/dang-ky.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/dang-nhap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/error-404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/error-500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assests/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assests/css/style.css" afterDir="false" />
->>>>>>> 1dc7b7437bdf3d19eae11a0608c00e67578e82d9
+      <change afterPath="$PROJECT_DIR$/web/assests/images/introduction_food.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assests/images/nhahang-gioithieu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assests/images/pexels-photo-1268551.jpeg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -308,16 +168,16 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="6" />
+          <entry key="git.branch.checkout.local" value="7" />
           <entry key="git.branch.compare" value="1" />
           <entry key="git.branch.create.new" value="1" />
-          <entry key="git.branch.merge" value="2" />
+          <entry key="git.branch.merge" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="4" />
-          <entry key="html" value="108" />
+          <entry key="html" value="115" />
           <entry key="js" value="12" />
           <entry key="xml" value="5" />
         </counts>
@@ -325,7 +185,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="108" />
+          <entry key="HTML" value="115" />
           <entry key="JavaScript" value="12" />
           <entry key="XML" value="5" />
         </counts>
@@ -333,7 +193,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="24" />
-          <entry key="html" value="12216" />
+          <entry key="html" value="12441" />
           <entry key="js" value="15" />
           <entry key="txt" value="11" />
           <entry key="xml" value="45" />
@@ -342,7 +202,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="24" />
-          <entry key="HTML" value="12216" />
+          <entry key="HTML" value="12441" />
           <entry key="JavaScript" value="15" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="XML" value="45" />
@@ -368,46 +228,46 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="5" />
+          <entry key="html" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="HTML" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-<<<<<<< HEAD
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
-=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/dang-nhap.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/thuc-don.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="-2527">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/dang-ky.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="890">
+              <caret line="85" column="48" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/dang-ky.html">
+        <entry file="file://$PROJECT_DIR$/web/chi-tiet-thuc-don.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="323">
+              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
->>>>>>> 1dc7b7437bdf3d19eae11a0608c00e67578e82d9
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -421,7 +281,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>food-menu</find>
       <find>#title</find>
       <find>navbar-nav</find>
       <find>price</find>
@@ -451,6 +310,7 @@
       <find>login-half-bg</find>
       <find>../..</find>
       <find>register-half-bg</find>
+      <find>tên món ăn</find>
     </findStrings>
     <replaceStrings>
       <replace>_</replace>
@@ -467,6 +327,7 @@
       <replace>người dùng</replace>
       <replace>nguoi-dung</replace>
       <replace>assests</replace>
+      <replace>Tên thực đơn</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -480,9 +341,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/layout/trang-chu.html" />
-        <option value="$PROJECT_DIR$/web/layout/trang-chu.jsp" />
-        <option value="$USER_HOME$/Desktop/layout/tin-tuc-blog.html" />
         <option value="$USER_HOME$/Desktop/layout/TatCaMonAn.html" />
         <option value="$PROJECT_DIR$/src/module-info.java" />
         <option value="$PROJECT_DIR$/web/assests/css/style.dang-nhap.css" />
@@ -496,7 +354,6 @@
         <option value="$PROJECT_DIR$/web/trang-chu.jsp" />
         <option value="$PROJECT_DIR$/web/assests/js/script.thuc-don.js" />
         <option value="$PROJECT_DIR$/web/assests/css/style.thuc-don.css" />
-        <option value="$PROJECT_DIR$/web/thuc-don.html" />
         <option value="$PROJECT_DIR$/web/dat-ban.html" />
         <option value="$PROJECT_DIR$/db/dbms.sql" />
         <option value="$PROJECT_DIR$/web/assests/pages/tables/basic-table.html" />
@@ -528,9 +385,13 @@
         <option value="$PROJECT_DIR$/web/admin-xoa-quan-tri-vien.html" />
         <option value="$PROJECT_DIR$/web/error-500.html" />
         <option value="$PROJECT_DIR$/web/error-404.html" />
-        <option value="$PROJECT_DIR$/web/dang-ky.html" />
-        <option value="$PROJECT_DIR$/web/dang-nhap.html" />
         <option value="$PROJECT_DIR$/web/assests/css/style.css" />
+        <option value="$PROJECT_DIR$/web/dang-nhap.html" />
+        <option value="$PROJECT_DIR$/web/dang-ky.html" />
+        <option value="$PROJECT_DIR$/xac-nhan-dang-ky.html" />
+        <option value="$PROJECT_DIR$/web/xac-nhan-dang-ky.html" />
+        <option value="$PROJECT_DIR$/web/chi-tiet-thuc-don.html" />
+        <option value="$PROJECT_DIR$/web/thuc-don.html" />
       </list>
     </option>
   </component>
@@ -586,10 +447,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-=======
       <pane id="PackagesPane" />
->>>>>>> 1dc7b7437bdf3d19eae11a0608c00e67578e82d9
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -603,36 +461,16 @@
               <item name="WebProjectV3" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
-=======
-            <path>
-              <item name="WebProjectV3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebProjectV3" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="assests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebProjectV3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebProjectV3" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="assests" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="WebProjectV3" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebProjectV3" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="Content" type="462c0819:PsiDirectoryNode" />
             </path>
->>>>>>> 1dc7b7437bdf3d19eae11a0608c00e67578e82d9
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-      <pane id="PackagesPane" />
-=======
->>>>>>> 1dc7b7437bdf3d19eae11a0608c00e67578e82d9
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -641,7 +479,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541581323763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540441187747" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/Content/Upload/TinTuc" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -1123,20 +961,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="154426000" />
-=======
-    <option name="totallyTimeSpent" value="159080000" />
->>>>>>> 1dc7b7437bdf3d19eae11a0608c00e67578e82d9
+    <option name="totallyTimeSpent" value="161418000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-<<<<<<< HEAD
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.2655068" />
-=======
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.26928896" />
->>>>>>> 1dc7b7437bdf3d19eae11a0608c00e67578e82d9
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.22012103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1153,10 +983,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32741934" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32786885" />
       <window_info anchor="bottom" id="TunnelliJ" order="13" weight="0.3295082" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1253,44 +1083,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="dien commit" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/web/note.txt" />
-    <entry file="file://$PROJECT_DIR$/web/ChiTietMonAn.html" />
-    <entry file="file://$PROJECT_DIR$/src/quanlynhahang/controllers/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/dang-nhap.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/assests/js/script.thuc-don.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-=======
->>>>>>> 1dc7b7437bdf3d19eae11a0608c00e67578e82d9
-    <entry file="file://$PROJECT_DIR$/web/trang-chu.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/trang-chu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="277" column="26" lean-forward="true" selection-start-line="274" selection-start-column="20" selection-end-line="277" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assests/css/style.trang-chu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/thuc-don.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="112" column="10" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/assests/css/style.thuc-don.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -1321,9 +1113,27 @@
     <entry file="file://$PROJECT_DIR$/web/tat-ca-mon-an.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assests/pages/tables/basic-table.html" />
-    <entry file="file://$PROJECT_DIR$/web/assests/pages/icons/font-awesome.html" />
-    <entry file="file://$PROJECT_DIR$/web/assests/pages/icons/simple-line-icon.html" />
+    <entry file="file://$PROJECT_DIR$/web/assests/pages/tables/basic-table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="659" column="40" lean-forward="true" selection-start-line="618" selection-start-column="32" selection-end-line="659" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assests/pages/icons/font-awesome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="14" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assests/pages/icons/simple-line-icon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/assests/js/script.form-lien-he.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1338,11 +1148,23 @@
     <entry file="file://$PROJECT_DIR$/web/assests/js/ckeditor/lang/af.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assests/pages/forms/text_editor.html" />
+    <entry file="file://$PROJECT_DIR$/web/assests/pages/forms/text_editor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="535" column="35" lean-forward="true" selection-start-line="535" selection-start-column="35" selection-end-line="535" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/assests/node_modules/tinymce/tinymce.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assests/pages/forms/basic_elements.html" />
+    <entry file="file://$PROJECT_DIR$/web/assests/pages/forms/basic_elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15751">
+          <caret line="903" column="32" selection-start-line="897" selection-start-column="24" selection-end-line="903" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1377,9 +1199,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$USER_HOME$/Desktop/plus/index.html" />
-=======
     <entry file="file://$USER_HOME$/Desktop/plus/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -1387,7 +1206,6 @@
         </state>
       </provider>
     </entry>
->>>>>>> 1dc7b7437bdf3d19eae11a0608c00e67578e82d9
     <entry file="file://$PROJECT_DIR$/web/admin-binh-luan.html" />
     <entry file="file://$PROJECT_DIR$/web/admin-binh-luan-mon-an.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1480,8 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-<<<<<<< HEAD
-=======
         </state>
       </provider>
     </entry>
@@ -1489,7 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="290" column="60" selection-start-line="290" selection-start-column="60" selection-end-line="290" selection-end-column="60" />
->>>>>>> 1dc7b7437bdf3d19eae11a0608c00e67578e82d9
         </state>
       </provider>
     </entry>
@@ -1500,24 +1315,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/error-404.html">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="301">
-          <caret line="290" column="60" selection-start-line="290" selection-start-column="60" selection-end-line="290" selection-end-column="60" />
-=======
-        <state relative-caret-position="247">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/error-500.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
-          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/error-404.html" />
+    <entry file="file://$PROJECT_DIR$/web/error-500.html" />
     <entry file="file://$PROJECT_DIR$/web/assests/pages/samples/login-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1532,13 +1331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/dang-ky.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/assests/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -1546,24 +1338,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/dang-nhap.html">
+    <entry file="file://$PROJECT_DIR$/web/dang-ky.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
->>>>>>> 1dc7b7437bdf3d19eae11a0608c00e67578e82d9
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin-quan-ly-hoa-don.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+        <state relative-caret-position="890">
+          <caret line="85" column="48" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/dang-nhap.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
+        <state relative-caret-position="323">
+          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xac-nhan-dang-ky.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/chi-tiet-thuc-don.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/trang-chu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/thuc-don.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2527">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
       </provider>
     </entry>
   </component>
