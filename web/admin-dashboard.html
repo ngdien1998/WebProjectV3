@@ -32,6 +32,16 @@
             padding: 8px;
             color: #ccc;
         }
+
+        .text {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            line-height: 16px;
+            max-height: 32px;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+        }
     </style>
 </head>
 
@@ -200,15 +210,18 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="collapse" href="#page-layouts" aria-expanded="false" aria-controls="page-layouts">
+                    <a class="nav-link" data-toggle="collapse" href="#page-layouts" aria-expanded="false"
+                            aria-controls="page-layouts">
                         <i class="mdi mdi-arrow-expand-all menu-icon"></i>
                         <span class="menu-title">Quản Lý Người Dùng</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="collapse" id="page-layouts">
                         <ul class="nav flex-column sub-menu">
-                            <li class="nav-item d-none d-lg-block"> <a class="nav-link" href="admin-nguoi-dung.html">Người Dùng</a></li>
-                            <li class="nav-item"> <a class="nav-link" href="admin-quan-tri-vien.html">Quản Trị Viên</a></li>
+                            <li class="nav-item d-none d-lg-block"><a class="nav-link"
+                                    href="admin-nguoi-dung.html">Người Dùng</a></li>
+                            <li class="nav-item"><a class="nav-link" href="admin-quan-tri-vien.html">Quản Trị Viên</a>
+                            </li>
                         </ul>
                     </div>
                 </li>
