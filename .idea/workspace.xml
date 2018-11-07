@@ -7,8 +7,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b2c6b2c-a054-484f-8950-5895ce8ad186" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/assests/css/style.chi-tiet-thuc-don.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assests/js/script.chi-tiet-thuc-don.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-bai-viet.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/admin-binh-luan-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-binh-luan-mon-an.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-quan-ly-dat-ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-quan-ly-dat-ban.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-quan-ly-hoa-don.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-quan-ly-hoa-don.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-quan-ly-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-quan-ly-mon-an.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-sua-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-sua-mon-an.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-them-hoa-don.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-them-hoa-don.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-them-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-them-mon-an.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-xem-hoa-don.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-xem-hoa-don.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-xem-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-xem-mon-an.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-xoa-bai-viet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-xoa-dat-ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin-xoa-dat-ban.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-xoa-loai-mon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-xoa-mon-an.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-xoa-quan-tri-vien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-xoa-quyen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-xoa-thuc-don.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assests/css/style.thuc-don.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assests/css/style.thuc-don.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assests/js/script.thuc-don.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assests/js/script.thuc-don.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/chi-tiet-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/chi-tiet-mon-an.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/chi-tiet-thuc-don.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/dang-ky.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/dang-ky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/dang-nhap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/dat-ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/dat-ban.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/error-404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/error-500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/gio-hang.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/gio-hang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/gioi-thieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/gioi-thieu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/lien-he.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/lien-he.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/tat-ca-mon-an.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/tat-ca-mon-an.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/thuc-don.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/thuc-don.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/trang-chu.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/trang-chu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/xac-nhan-dang-ky.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -167,32 +201,32 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="7" />
+          <entry key="git.branch.checkout.local" value="8" />
           <entry key="git.branch.compare" value="1" />
           <entry key="git.branch.create.new" value="1" />
-          <entry key="git.branch.merge" value="3" />
+          <entry key="git.branch.merge" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="4" />
-          <entry key="html" value="115" />
-          <entry key="js" value="12" />
+          <entry key="css" value="7" />
+          <entry key="html" value="117" />
+          <entry key="js" value="14" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
-          <entry key="HTML" value="115" />
-          <entry key="JavaScript" value="12" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="117" />
+          <entry key="JavaScript" value="14" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="24" />
-          <entry key="html" value="12441" />
+          <entry key="css" value="26" />
+          <entry key="html" value="12463" />
           <entry key="js" value="15" />
           <entry key="txt" value="11" />
           <entry key="xml" value="45" />
@@ -200,8 +234,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="24" />
-          <entry key="HTML" value="12441" />
+          <entry key="CSS" value="26" />
+          <entry key="HTML" value="12463" />
           <entry key="JavaScript" value="15" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="XML" value="45" />
@@ -266,17 +300,26 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/admin-binh-luan-mon-an.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/thuc-don.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="271" selection-start-line="271" selection-end-line="271" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="-608">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/assests/js/script.chi-tiet-thuc-don.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/assests/css/style.chi-tiet-thuc-don.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -287,9 +330,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -355,9 +398,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/module-info.java" />
-        <option value="$PROJECT_DIR$/web/assests/css/style.dang-nhap.css" />
-        <option value="$PROJECT_DIR$/web/LienHe.jsp" />
         <option value="$PROJECT_DIR$/web/tin-tuc-blog.jsp" />
         <option value="$PROJECT_DIR$/web/TatCaMonAn.jsp" />
         <option value="$PROJECT_DIR$/web/dang-ky.jsp" />
@@ -365,8 +405,6 @@
         <option value="$PROJECT_DIR$/web/assests/js/script.dang-nhap.js" />
         <option value="$PROJECT_DIR$/src/quanlynhahang/controllers/LoginServlet.java" />
         <option value="$PROJECT_DIR$/web/trang-chu.jsp" />
-        <option value="$PROJECT_DIR$/web/assests/js/script.thuc-don.js" />
-        <option value="$PROJECT_DIR$/web/assests/css/style.thuc-don.css" />
         <option value="$PROJECT_DIR$/web/dat-ban.html" />
         <option value="$PROJECT_DIR$/db/dbms.sql" />
         <option value="$PROJECT_DIR$/web/assests/pages/tables/basic-table.html" />
@@ -403,9 +441,14 @@
         <option value="$PROJECT_DIR$/web/dang-ky.html" />
         <option value="$PROJECT_DIR$/xac-nhan-dang-ky.html" />
         <option value="$PROJECT_DIR$/web/xac-nhan-dang-ky.html" />
-        <option value="$PROJECT_DIR$/web/chi-tiet-thuc-don.html" />
-        <option value="$PROJECT_DIR$/web/thuc-don.html" />
         <option value="$PROJECT_DIR$/web/admin-binh-luan-mon-an.html" />
+        <option value="$PROJECT_DIR$/web/trang-chu.html" />
+        <option value="$PROJECT_DIR$/web/thuc-don.html" />
+        <option value="$PROJECT_DIR$/web/assests/js/script.thuc-don.js" />
+        <option value="$PROJECT_DIR$/web/assests/css/style.thuc-don.css" />
+        <option value="$PROJECT_DIR$/web/chi-tiet-thuc-don.html" />
+        <option value="$PROJECT_DIR$/web/assests/css/style.chi-tiet-thuc-don.css" />
+        <option value="$PROJECT_DIR$/web/assests/js/script.chi-tiet-thuc-don.js" />
       </list>
     </option>
   </component>
@@ -453,6 +496,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -471,6 +517,12 @@
               <item name="WebProjectV3" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebProjectV3" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebProjectV3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebProjectV3" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="assests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -973,13 +1025,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161958000" />
+    <option name="totallyTimeSpent" value="163278000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.22314675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1097,35 +1148,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="dien commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/dbms.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="652" column="16" selection-start-line="652" selection-start-column="16" selection-end-line="652" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/tat-ca-mon-an.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assests/pages/tables/basic-table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="659" column="40" lean-forward="true" selection-start-line="618" selection-start-column="32" selection-end-line="659" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assests/pages/icons/font-awesome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="14" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/assests/pages/icons/simple-line-icon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1349,27 +1371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/chi-tiet-thuc-don.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/trang-chu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/thuc-don.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2527">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/gioi-thieu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1395,13 +1396,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="271" selection-start-line="271" selection-end-line="271" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assests/js/script.thuc-don.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assests/css/style.trang-chu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="278" lean-forward="true" selection-start-line="220" selection-end-line="278" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/trang-chu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="467" selection-start-line="467" selection-end-line="551" selection-end-column="6" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assests/css/style.thuc-don.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="79" selection-start-line="79" selection-end-line="136" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assests/css/style.chi-tiet-thuc-don.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/thuc-don.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-608">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/chi-tiet-thuc-don.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="75" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="75" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assests/js/script.chi-tiet-thuc-don.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
