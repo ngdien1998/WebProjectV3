@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Thêm hóa đơn</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="assests/node_modules/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assests/node_modules/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="assests/node_modules/perfect-scrollbar/css/perfect-scrollbar.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <link rel="stylesheet" href="assests/node_modules/jvectormap/jquery-jvectormap.css" />
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="assests/css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="assests/images/favicon.png" />
+    <script src="./assests/js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body style="background: #F6F8FA;">
+    <div class="container">
+        <div class="card" style="margin: 16px 0;">
+            <div class="card-body">
+                <h3 class="card-title">Thêm Hóa Đơn Mới</h3>
+                <p class="card-description">
+                    Vui lòng nhập đầy đủ thông tin yêu cầu
+                </p>
+                <form class="forms-sample">
+                    <div class="form-row">
+                        <div class="col-md-6 col-sm-12 form-group">
+                            <label for="email">Email (bắt buộc)</label>
+                            <input type="text" class="form-control" id="email" placeholder="Email khách hàng">
+                            <small class="text-danger" id="validate-email"></small>
+                        </div>
+                        <div class="form-group col-md-6 col-sm-12 col-12">
+                            <label>Ngày Thêm</label>
+                            <!-- <div class="form-group">
+                                <div class='input-group date' id='datetimepicker2'>
+                                    <input type='date' class="form-control" />
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <script type="text/javascript">
+                                $('.datetimepicker2').datepicker();
+                            </script> -->
+                            <div class="form-group">
+                                <div class='input-group date'>
+                                    <input type='date' class="form-control" id='datetimepicker1' data-date-format="dd/mm/yyyy" />
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ghi Chú</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mô Tả"></textarea>
+                        <small class="text-danger" id="validate-email"></small>
+                    </div>
+                    <button class="btn btn-success btn-rounded mb-3" id="them-mon-an">Thêm Món Ăn</button>
+                    <div class="danh-sach-mon-an">
+
+                    </div>
+                    <input type="submit" class="btn btn-primary btn-rounded" id="btn-submit" value="Thêm Hóa Đơn" />
+                    <a href="./admin-quan-ly-hoa-don.html" class="btn btn-primary btn-rounded"> Về Trang Quản Lý Hóa
+                        Đơn</a>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!-- container-scroller -->
+
+    <!-- plugins:js -->
+    <script src="assests/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="assests/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="assests/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assests/node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page-->
+    <script src="assests/node_modules/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <!-- End plugin js for this page-->
+    <!-- inject:js -->
+    <script src="assests/js/off-canvas.js"></script>
+    <script src="assests/js/hoverable-collapse.js"></script>
+    <script src="assests/js/misc.js"></script>
+    <script src="assests/js/settings.js"></script>
+    <script src="assests/js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="assests/js/todolist.js"></script>
+    <script src="assests/js/dashboard.js"></script>
+    <!-- End custom js for this page-->
+
+    <script type="text/javascript">
+        function validateForEmail() {
+            let hodem = $("#email").val().trim();
+            if (hodem === "") {
+                $("#validate-email").html("Bạn chưa nhập Email");
+                return false;
+            }
+            $("#validate-email").html("");
+            return true;
+        }
+
+        $("#email").blur(() => validateForEmail());
+
+
+        function validateForIDMonAn() {
+            let ten = $(".id-mon-an").val().trim();
+            if (ten === "") {
+                $(".validate-id-mon-an").html("Bạn chưa nhập ID món ăn");
+                return false;
+            }
+            $(".validate-id-mon-an").html("");
+            return true;
+        }
+
+        let ten = $(".id-mon-an");
+        $(ten).each((index, elem) => {
+            
+        });
+
+        $(".id-mon-an").blur(() => validateForIDMonAn());
+
+
+        $("#btn-submit").click(() => {
+            let res = validateForEmail() & validateForIDMonAn();
+            if (res === 0) {
+                return false;
+            }
+            return true;
+        });
+
+        $("#them-mon-an").click(() => {
+            $('.danh-sach-mon-an').append(
+                `<div class="row">
+                    <div class="col-4 form-group">
+                        <label for="id-mon-an">ID Món Ăn</label>
+                        <input type="text" class="form-control id-mon-an" placeholder="ID Món Ăn" onblur="return validateForIDMonAn()">
+                            <small class="text-danger validate-id-mon-an"></small>
+                    </div>
+                        <div class="col-4 form-group">
+                            <label for="ten-mon-an">Số Lượng</label>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                            </select>
+                        </div>
+                        <div class="col-4 form-group">
+                            <label for="ten-mon-an">Đơn Giá</label>
+                            <input type="number" class="form-control" id="id-mon-an" placeholder="Giá tiền món ăn">
+                                <small class="text-danger" id="validate-id-mon-an"></small>
+                         </div>
+                </div>`
+            )
+            return false;
+        })
+
+        var now = new Date();
+        // var today = now.getDate() + '/' + (now.getMonth() + 1) + '/' + now.getFullYear();
+        var today = now.getFullYear() + '-' + (now.getMonth() + 1) + '-' + now.getDate();
+        $(document).ready(() => {
+            $('#datetimepicker1').val(today);
+        })
+
+    </script>
+</body>
+
+</html>
