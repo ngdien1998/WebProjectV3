@@ -69,18 +69,14 @@
                             <label>Ngày Thêm</label>
                             <div class="form-group">
                                 <div class='input-group date' id='datetimepicker2'>
-                                    <input type='date' class="form-control" />
+                                    <input type='date' class="form-control" id="today"/>
                                     <span class="input-group-addon">
                                         <span class="glyphicon glyphicon-calendar"></span>
                                     </span>
                                 </div>
                             </div>
                             <script type="text/javascript">
-                                $(function () {
-                                    $('#datetimepicker2').datetimepicker({
-                                        locale: 'ru'
-                                    });
-                                });
+                                document.querySelector("#today").valueAsDate = new Date();
                             </script>
                         </div>
                         <div class="form-group col-md-4 col-sm-6 col-12">
